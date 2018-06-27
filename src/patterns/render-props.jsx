@@ -48,7 +48,7 @@ export const Example = (
                         onClick: () => console.log('button clicked')
                     })}
                 >
-                    {on ? 'on' : 'off'}
+                    {on ? 'off' : 'on'}
                 </button>
             </div>
         )}

@@ -17,3 +17,8 @@ export const RENDER_PROPS = {
     path: '/render-props',
     text: 'Render Props'
 };
+
+export const STATE_REDUCER = {
+    path: '/state-reducer',
+    text: 'State Reducer'
+};

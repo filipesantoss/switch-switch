@@ -8,6 +8,7 @@ const Header = () => (
         <Link to={Links.BASIC.path}>{Links.BASIC.text}</Link>
         <Link to={Links.COMPOUND.path}>{Links.COMPOUND.text}</Link>
         <Link to={Links.RENDER_PROPS.path}>{Links.RENDER_PROPS.text}</Link>
+        <Link to={Links.STATE_REDUCER.path}>{Links.STATE_REDUCER.text}</Link>
     </div>
 );
 
