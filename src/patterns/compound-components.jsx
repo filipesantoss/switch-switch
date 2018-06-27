@@ -44,7 +44,7 @@ class CompoundComponents extends React.Component {
 
     static Slider = () => (
         <Consumer>
-            {contextValue => <Switch on={contextValue.on} onChange={contextValue.onClick} />}
+            {contextValue => <Switch on={contextValue.on} onClick={contextValue.onClick} />}
         </Consumer>
     );
 

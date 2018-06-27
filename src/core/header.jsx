@@ -7,6 +7,7 @@ const Header = () => (
         <Link to={Links.SWITCH.path}>{Links.SWITCH.text}</Link>
         <Link to={Links.BASIC.path}>{Links.BASIC.text}</Link>
         <Link to={Links.COMPOUND.path}>{Links.COMPOUND.text}</Link>
+        <Link to={Links.RENDER_PROPS.path}>{Links.RENDER_PROPS.text}</Link>
     </div>
 );
 

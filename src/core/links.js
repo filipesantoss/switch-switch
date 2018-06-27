@@ -9,6 +9,11 @@ export const BASIC = {
 };
 
 export const COMPOUND = {
-    path: '/compound',
+    path: '/compound-components',
     text: 'Compound Components'
+};
+
+export const RENDER_PROPS = {
+    path: '/render-props',
+    text: 'Render Props'
 };

@@ -6,6 +6,7 @@ import Switch from './core/switch';
 import Header from './core/header';
 import Base from './core/base';
 import { Example as CompoundComponentsExample } from './patterns/compound-components';
+import { Example as RenderPropsExample } from './patterns/render-props';
 
 ReactDOM.render(
     <Router>
@@ -14,6 +15,7 @@ ReactDOM.render(
             <Route exact path={Links.SWITCH.path} component={Switch} />
             <Route exact path={Links.BASIC.path} component={Base} />
             <Route exact path={Links.COMPOUND.path} render={() => CompoundComponentsExample} />
+            <Route exact path={Links.RENDER_PROPS.path} render={() => RenderPropsExample} />
         </div>
     </Router>,
     document.getElementById('root')

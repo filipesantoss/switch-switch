@@ -7,7 +7,7 @@ class Base extends React.Component {
     onClick = () => this.setState({ on: !this.state.on });
 
     render() {
-        return <Switch on={this.state.on} onChange={this.onClick} />;
+        return <Switch on={this.state.on} onClick={this.onClick} />;
     }
 }
 
